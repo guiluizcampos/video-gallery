@@ -3,19 +3,23 @@ import pluginJs from "@eslint/js";
 import tseslint from "typescript-eslint";
 import pluginReact from "eslint-plugin-react";
 
-
 export default [
-  pluginJs.configs.recommended,
-  ...tseslint.configs.strict,
-  ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
   pluginReact.configs.flat["jsx-runtime"],
   {
+    ignores: ["dist/**", "node_modules/**", "bin/**", "build/**"]
+  },
+  {
     files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
     languageOptions: { 
-      globals: { ...globals.browser, ...globals.node }
+      globals: { 
+        ...globals.browser,
+        ...globals.node
+      }
     },
     rules: {
+      ...pluginJs.configs.strict.rules,
+      ...tseslint.configs.strict.rules,
       "block-spacing": "error",
       "brace-style": "error",
       "comma-dangle": ["error", "only-multiline"],
