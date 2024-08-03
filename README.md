@@ -1,6 +1,6 @@
-<h1 align="center">Video Gallery</h1>
+<h1 align="center">Video Gallery 🎥</h1>
 
-Welcome to video-gallery repository 🎥
+Welcome to video-gallery repository!
 
 ## Introduction
 
@@ -27,7 +27,7 @@ To clone the repository to your local machine, follow these steps:
     git clone git@github.com:guiluizcampos/video-gallery.git
 ```
 
-or if you use HTTPS:
+> Or if you use HTTPS:
 
 ```shell
     git clone https://github.com/guiluizcampos/video-gallery.git
@@ -43,15 +43,13 @@ Once you have cloned the repository, you need to install the project's dependenc
 
 1. **Install dependencies:**
 
-> using npm
+> Using npm
 
 ```bash
 npm i
 ```
 
 2. **To run the application:**
-
-> using npm
 
 ```bash
 npm run dev
