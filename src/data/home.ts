@@ -1,13 +1,8 @@
 export const categories = [
-  "All",
   "Front-End",
   "Back-End",
-  "Full-Stack",
   "Javascript",
-  "Typescript",
-  "React",
-  "Next.js",
-  ".NET",
+  "CSS",
   "Gym",
   "Job Interview"
 ];
@@ -16,6 +11,7 @@ export const videos = [
   {
     id: "1",
     title: "CSS Anchor Is The Best New CSS Feature Since Flexbox",
+    categories: ["CSS", "Front-End"],
     channel: {
       name: "Programming Channel",
       id: "ProgrammingChannel",
@@ -32,6 +28,7 @@ export const videos = [
   {
     id: "2",
     title: "NEW Way To Create Variables In JavaScript",
+    categories: ["Javascript", "Front-End", "Back-End"],
     channel: {
       name: "Programming Channel",
       id: "ProgrammingChannel",
@@ -47,7 +44,8 @@ export const videos = [
   },
   {
     id: "3",
-    title: "Front-end developer takes on a CSS battle",
+    title: "Best way to quickly bulk in the gym",
+    categories: ["Gym"],
     channel: {
       name: "Guilherme Campos",
       id: "GuilhermeCampos",
@@ -64,6 +62,7 @@ export const videos = [
   {
     id: "4",
     title: "Quick guide to CSS focus states",
+    categories: ["CSS", "Front-End"],
     channel: {
       name: "Guilherme Campos",
       id: "GuilhermeCampos",
@@ -80,6 +79,7 @@ export const videos = [
   {
     id: "5",
     title: "I Cannot Believe React Made A Hook For This",
+    categories: ["Front-End", "Javascript"],
     channel: {
       name: "Programming Channel",
       id: "ProgrammingChannel",
@@ -96,6 +96,7 @@ export const videos = [
   {
     id: "6",
     title: "I Got Laid Off...",
+    categories: ["Job Interview"],
     channel: {
       name: "John Doe",
       id: "JohnDoe",
@@ -111,7 +112,8 @@ export const videos = [
   },
   {
     id: "7",
-    title: "Tails OS in 100 Seconds",
+    title: "Node.js in 100 Seconds",
+    categories: ["Back-End", "Javascript"],
     channel: {
       name: "Jane Doe",
       id: "JaneDoe",
@@ -128,6 +130,7 @@ export const videos = [
   {
     id: "8",
     title: "Zig in 100 Seconds",
+    categories: ["Back-End"],
     channel: {
       name: "Jane Doe",
       id: "JaneDoe",

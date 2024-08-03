@@ -37,6 +37,14 @@ export function CategoryPills({ categories, selectedCategory, onSelect }: Catego
         className="flex whitespace-nowrap gap-3 transition-transform w-[max-content]"
         style={{ transform: `translateX(-${translate}px)` }}
       >
+        <Button 
+          key="All"
+          onClick={() => onSelect("")}
+          style={!selectedCategory ? "dark" : "default"}
+          className="py-1 px-3 rounded-lg whitespace-nowrap"
+        >
+          All
+        </Button>
         {categories.map(category => (
           <Button 
             key={category}
