@@ -41,7 +41,7 @@ export function VideoGridItem({ id, title, channel, views, postedAt, duration, t
       onMouseEnter={() => setIsVideoPlaying(true)} 
       onMouseLeave={() => setIsVideoPlaying(false)}
     >
-      <Link to={`/watch?v=${id}`} className="relative aspect-video">
+      <Link to={`/watch/${id}`} className="relative aspect-video">
         <img 
           src={thumbnailImg} 
           className={`block w-full h-full object-cover transition-[border-radius] duration-300 
@@ -64,7 +64,7 @@ export function VideoGridItem({ id, title, channel, views, postedAt, duration, t
           <img src={channel.profileImg} className="w-12 h-12 rounded-full" />
         </Link>
         <div className="flex flex-col">
-          <Link to={`/watch?v=${id}`} className="font-bold">
+          <Link to={`/watch/${id}`} className="font-bold">
             {title}
           </Link>
           <Link to={`/@${channel.id}`} className="text-secondary-text text-sm">
