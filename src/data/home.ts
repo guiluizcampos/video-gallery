@@ -15,6 +15,7 @@ export const videos = [
     channel: {
       name: "Programming Channel",
       id: "ProgrammingChannel",
+      subscribers: 222536,
       profileImg:
         "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
     },
@@ -32,6 +33,7 @@ export const videos = [
     channel: {
       name: "Programming Channel",
       id: "ProgrammingChannel",
+      subscribers: 257136,
       profileImg:
         "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
     },
@@ -49,6 +51,7 @@ export const videos = [
     channel: {
       name: "Guilherme Campos",
       id: "GuilhermeCampos",
+      subscribers: 1232300,
       profileImg:
         "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
     },
@@ -66,6 +69,7 @@ export const videos = [
     channel: {
       name: "Guilherme Campos",
       id: "GuilhermeCampos",
+      subscribers: 112,
       profileImg:
         "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
     },
@@ -83,6 +87,7 @@ export const videos = [
     channel: {
       name: "Programming Channel",
       id: "ProgrammingChannel",
+      subscribers: 42345,
       profileImg:
         "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
     },
@@ -100,6 +105,7 @@ export const videos = [
     channel: {
       name: "John Doe",
       id: "JohnDoe",
+      subscribers: 10340,
       profileImg:
         "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
     },
@@ -117,6 +123,7 @@ export const videos = [
     channel: {
       name: "Jane Doe",
       id: "JaneDoe",
+      subscribers: 10323340,
       profileImg:
         "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
     },
@@ -134,6 +141,7 @@ export const videos = [
     channel: {
       name: "Jane Doe",
       id: "JaneDoe",
+      subscribers: 20323340,
       profileImg:
         "https://yt3.googleusercontent.com/ytc/APkrFKb--NH6RwAGHYsD3KfxX-SAgWgIHrjR5E4Jb5SDSQ=s176-c-k-c0x00ffffff-no-rj",
     },
