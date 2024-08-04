@@ -19,7 +19,8 @@ export default {
           text: colors.neutral[500],
           dark: colors.neutral[800],
           "dark-hover": colors.neutral[900]
-        }
+        },
+        black: colors.neutral[950]
       },
     },
   },
