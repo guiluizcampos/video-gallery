@@ -47,9 +47,9 @@ export function VideoGridItem({ id, title, channel, views, postedAt, duration, t
           className={`block w-full h-full object-cover transition-[border-radius] duration-300 
             ${isVideoPlaying ? "rounded-none" : "rounded-xl"}`} 
         />
-        <div className="absolute bottom-1 right-1 bg-secondary-dark text-secondary text-sm px-0.5 rounded">
+        <span className="absolute bottom-1 right-1 bg-secondary-dark text-secondary text-sm px-0.5 rounded">
           {formatDuration(duration)}
-        </div>
+        </span>
         <video 
           ref={videoRef} 
           muted 
@@ -70,9 +70,9 @@ export function VideoGridItem({ id, title, channel, views, postedAt, duration, t
           <Link to={`/@${channel.id}`} className="text-secondary-text text-sm">
             {channel.name}
           </Link>
-          <div className="text-secondary-text text-sm">
+          <span className="text-secondary-text text-sm">
             {VIEWS_FORMATTER.format(views)} Views • {postedAt.toLocaleDateString()}
-          </div>
+          </span>
         </div>
       </div>
     </div>
