@@ -4,7 +4,11 @@ dist-ssr
 *.local
 
 # Local env files
+.env*.local
 .env
+
+# vercel
+.vercel
 
 # Log filess
 logs
