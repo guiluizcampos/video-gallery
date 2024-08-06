@@ -18,7 +18,7 @@ export function SmallSidebarItem({ Icon, title, url }: SmallSidebarItemProps) {
       to={url}
       className={twMerge(
         buttonStyles({ style: "ghost" }),
-        "flex flex-col items-center py-4 px-1 rounded-xl gap-2 ml-1"
+        "flex flex-col items-center py-4 px-1 rounded-xl gap-2 mx-1"
       )}
     >
       <Icon 

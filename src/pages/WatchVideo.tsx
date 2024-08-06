@@ -19,17 +19,17 @@ export function WatchVideo() {
       <PageHeader isSidebarOpen={isSidebarOpen} toggleSidebar={setIsSidebarOpen} />
       <div className="grid grid-cols-[auto,1fr] overflow-auto">
         <Sidebar isSidebarOpen={isSidebarOpen} />
-        <div className="px-5 pb-4 w-fill flex flex-col gap-3">
-          <div className="h-6/6 bg-black flex justify-center">
+        <div className="pr-5 pb-4 w-fill flex flex-col gap-3 overflow-x-hidden">
+          <div className="min-h-[480px] h-6/6 bg-black flex justify-center">
             <video autoPlay controls src={video.videoUrl} className="h-full justify-self-center" />
           </div>
-          <div className="px-8 flex flex-col gap-3">
+          <div className="px-6 flex flex-col gap-3">
             <h1 className="font-bold text-xl">{video.title}</h1>
             <div className="flex gap-2">
-              <Link to={`/@${video.channel.id}`}>
-                <img src={video.channel.profileImg} className="w-12 h-12 rounded-full flex-shrink-0" />
+              <Link to={`/@${video.channel.id}`} className="flex-shrink-0">
+                <img src={video.channel.profileImg} className="w-12 h-12 rounded-full" />
               </Link>
-              <div className="flex flex-col gap-0.5">
+              <div className="flex flex-col gap-0.5 flex-shrink-0">
                 <Link to={`/@${video.channel.id}`} className="font-bold">
                   {video.channel.name}
                 </Link>
