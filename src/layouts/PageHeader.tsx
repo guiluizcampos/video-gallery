@@ -13,7 +13,7 @@ export function PageHeader({ isSidebarOpen, toggleSidebar }: PageHeaderProps) {
   const [showFullWidthSearch, setShowFullWidthSearch] = useState(false);
 
   return (
-    <div className="flex gap-10 lg:gap-20 justify-between pt-2 mb-6 mx-2">
+    <div className="flex gap-10 lg:gap-20 justify-between pt-2 mb-2 mx-2">
       {!showFullWidthSearch && (
         <div className="flex gap-4 items-center flex-shrink-0">
           <Button 

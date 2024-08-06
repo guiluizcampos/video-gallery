@@ -32,7 +32,7 @@ export function CategoryPills({ categories, selectedCategory, onSelect }: Catego
   }, [categories, translate]);
 
   return  (
-    <div ref={containerRef} className="overflow-x-hidden relative">
+    <div ref={containerRef} className="overflow-x-hidden relative mt-2">
       <div 
         className="flex whitespace-nowrap gap-3 transition-transform w-[max-content]"
         style={{ transform: `translateX(-${translate}px)` }}
