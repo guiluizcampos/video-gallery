@@ -20,7 +20,6 @@ export default [
       }
     },
     rules: {
-      ...pluginJs.configs.recommended.rules,
       ...tseslint.configs.strict.rules,
       "block-spacing": "error",
       "brace-style": "error",
